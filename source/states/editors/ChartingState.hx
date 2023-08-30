@@ -159,7 +159,8 @@ class ChartingState extends MusicBeatState
 		8,
 		12,
 		16,
-		24
+		24,
+		48
 	];
 	var curZoom:Int = 2;
 
@@ -242,9 +243,9 @@ class ChartingState extends MusicBeatState
 		leftIcon.scrollFactor.set(1, 1);
 		rightIcon.scrollFactor.set(1, 1);
 
-		eventIcon.setGraphicSize(30, 30);
-		leftIcon.setGraphicSize(0, 45);
-		rightIcon.setGraphicSize(0, 45);
+		eventIcon.setGraphicSize(50, 50);
+		leftIcon.setGraphicSize(0, 60);
+		rightIcon.setGraphicSize(0, 60);
 
 		add(eventIcon);
 		add(leftIcon);
