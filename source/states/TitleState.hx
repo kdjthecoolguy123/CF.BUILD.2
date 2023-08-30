@@ -588,7 +588,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['thanks PE and VDAB', 'nothing here'], -40);
+					createCoolText(['thanks PE and VDAB', 'for modding help and inspiration'], -40);
 					#else
 					createCoolText(['In association', 'u epic'], -40);
 					#end
