@@ -590,7 +590,7 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					createCoolText(['thanks PE and VDAB', 'nothing here'], -40);
 					#else
-					createCoolText(['In association', 'with'], -40);
+					createCoolText(['In association', 'u epic'], -40);
 					#end
 				case 8:
 					addMoreText('u epic', -40);
