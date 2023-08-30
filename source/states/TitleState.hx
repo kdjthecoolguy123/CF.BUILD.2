@@ -564,15 +564,18 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['this mod was made by'], 40);
+					createCoolText(['this mod was made by'], -40);
 					#else
 					createCoolText(['kdjthecoolguy123', 'bobbbyoffical', 'alexdima10yt', 'matixdcandy', 'erenkaya']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('kdjthecoolguy123', -40);
+					addMoreText('bobbbyoffical', -40);
+					addMoreText('alexdima10yt', -40);
+					addMoreText('matixdcandy', -40);
+					addMoreText('erenkaya', -40);
 					#else
 					addMoreText('present');
 					#end
@@ -585,12 +588,12 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['thanks PE and VDAB', 'with'], -40);
+					createCoolText(['thanks PE and VDAB', 'nothing here'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('u epic', -40);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:
