@@ -564,9 +564,9 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 40);
+					createCoolText(['this mod was made by'], 40);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['kdjthecoolguy123', 'bobbbyoffical', 'alexdima10yt', 'matixdcandy', 'erenkaya']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
@@ -585,7 +585,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['thanks PE and VDAB', 'with'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
@@ -612,13 +612,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('VS');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Crazy');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Funkers'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
