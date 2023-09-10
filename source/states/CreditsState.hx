@@ -6,6 +6,7 @@ import sys.io.File;
 #end
 
 import objects.AttachedSprite;
+import flixel.addons.display.FlxGridOverlay;
 
 class CreditsState extends MusicBeatState
 {
@@ -271,7 +272,7 @@ class CreditsState extends MusicBeatState
 				creditsStuff.push(arr);
 			}
 			creditsStuff.push(['']);
-		}
+		} 
 	}
 	#end
 
